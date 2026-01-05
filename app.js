@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import barberData from './barber.json';
 
+const cors = require('cors');
+app.use(cors());
+
 function App() {
 
   const barber = barberData[0];
